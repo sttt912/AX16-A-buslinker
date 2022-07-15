@@ -255,6 +255,7 @@ int LobotSerialServoReadPosition(HardwareSerial &SerialX, uint8_t id)
 #endif
   return ret;
 }
+
 int LobotSerialServoReadVin(HardwareSerial &SerialX, uint8_t id)
 {
   int count = 10000;
@@ -336,6 +337,7 @@ void ServoMotorModeOnn(HardwareSerial &SerialX, uint8_t id, int16_t Speed)
 
   SerialX.write(buf, 10);
 }
+
 void ServoMotorModeOff(HardwareSerial &SerialX, uint8_t id, int16_t Speed = 0)
 {
   byte buf[10];

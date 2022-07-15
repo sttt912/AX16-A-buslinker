@@ -20,6 +20,7 @@ void loop() {
   LobotSerialServoMove(Serial1, ID1, angle, 500); //Поворот на угол со скоростью 500 (от -1000 до 1000)
   Serial.println(angle);
   delay(5000);
+  LobotSerialServoStopMove(Serial1, ID1);//Стоп режим серво
 
   //Пример считивания информации
   Serial.print("Voltage = ");
