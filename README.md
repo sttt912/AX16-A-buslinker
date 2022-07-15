@@ -2,6 +2,8 @@
 
 Simple library to operate LX-16A serial servos.
 The code provided by the servo manufacturer is quite difficult to understand.
+
+
 https://github.com/sttt912/LX16-A-buslinker/tree/main/Read%20Angle/SerialServoRP
 https://github.com/sttt912/LX16-A-buslinker/blob/main/lx-16a%20LewanSoul%20Bus%20Servo%20Communication%20Protocol.pdf
 
